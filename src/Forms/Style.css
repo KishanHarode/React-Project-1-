@@ -1,0 +1,87 @@
+.cont-1{
+    display: flex;
+    justify-content: center;   
+}
+.Register-form{
+    border: 1px solid rgb(40, 38, 38);
+    border-radius: 3px;
+    width: 25%; 
+    height: 500px; 
+    margin-top: 1.5rem;
+    background-color: white;
+}
+.Login-form{
+    border:1px solid rgb(40, 38, 38);
+    border-radius: 3px;
+    width: 25%;
+    height: 370px;
+    margin-top: 4rem;
+    background-color: white;
+}
+.LoginButton{
+    padding: 5px 10px;
+    width: 140px;
+    margin-right: 3px;
+    border: 1px solid rgb(202, 181, 181);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.SingupButton{
+    padding: 5px 10px;
+    width: 140px;
+    border: none;
+    color: white;
+    background: rgb(4,2,38);
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(4,2,38,1) 0%, rgba(235,6,107,1) 0%, rgba(204,16,143,1) 100%, rgba(246,252,253,1) 100%, rgba(241,244,248,1) 100%);
+}
+
+.signupButton{
+    outline: none;
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+    color: white;
+    background: rgb(4,2,38);
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(4,2,38,1) 0%, rgba(235,6,107,1) 0%, rgba(204,16,143,1) 100%, rgba(246,252,253,1) 100%, rgba(241,244,248,1) 100%);
+}
+
+.LoginButton:hover,
+.SingupButton:hover,
+.signupButton:hover {
+    color: white;
+    background: rgb(4,2,38);
+    background: linear-gradient(90deg, rgba(4,2,38,1) 0%, rgba(108,4,50,1) 0%, rgba(204,16,143,1) 100%, rgba(246,252,253,1) 100%, rgba(241,244,248,1) 100%);
+}
+.error-message{
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 510px;
+} 
+
+.eye-icon {
+    position: absolute;
+    right: 31.3rem;
+    bottom: 188px;
+    cursor: pointer;
+}
+
+@media screen {
+    .Register-form{
+        max-width: 100%;
+    }
+    
+}
+
+
+
+
+
+ 
+
